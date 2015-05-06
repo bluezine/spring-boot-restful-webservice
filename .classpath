@@ -10,12 +10,7 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.jolbox/bonecp/0.8.0.RELEASE/f8b6d5414837c881740594109e0400dfb65d4c0b/bonecp-0.8.0.RELEASE-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.jolbox/bonecp/0.8.0.RELEASE/cec24ee9345b3678472bb1b8fdd6aa6b9428beb8/bonecp-0.8.0.RELEASE.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/com/oracle/ojdbc6_g/11.1.0.7.0/ojdbc6_g-11.1.0.7.0.jar" exported="true">
+	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.185/2415953e6bbc13890f66d4aee99391f2d08eb4e2/h2-1.4.185-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.185/b88c610b2df842752b889a438d0034f08e5fc2ce/h2-1.4.185.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
@@ -61,11 +56,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.6.RELEASE/b415e1ace63a04dda23b2e7431678f726d6032ca/spring-tx-4.1.6.RELEASE-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.6.RELEASE/b5beecfa930e0e2ce6fb3999eee3f69c4776e6be/spring-tx-4.1.6.RELEASE.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/36b6a585c0f0c63bd85fb04db0dcb7b217298956/guava-15.0-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
@@ -205,12 +195,12 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/a69d9a62a693f391ad19d8ac19fa85a7a60cbc7c/logback-core-1.1.3-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/e3c02049f2dbbc764681b40094ecf0dcbc99b157/logback-core-1.1.3.jar" exported="true">
+	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.11/cc676d8cf54f7e0135e98fed2b3c283a4a576689/slf4j-api-1.7.11-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.11/7eaaaf2238f324e2b02dbd4d6ced6778b99328/slf4j-api-1.7.11.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.11/cc676d8cf54f7e0135e98fed2b3c283a4a576689/slf4j-api-1.7.11-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.11/7eaaaf2238f324e2b02dbd4d6ced6778b99328/slf4j-api-1.7.11.jar" exported="true">
+	<classpathentry sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/a69d9a62a693f391ad19d8ac19fa85a7a60cbc7c/logback-core-1.1.3-sources.jar" kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/e3c02049f2dbbc764681b40094ecf0dcbc99b157/logback-core-1.1.3.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>

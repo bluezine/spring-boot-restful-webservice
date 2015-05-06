@@ -22,7 +22,6 @@ apply plugin: 'war'
 
 war {
     baseName = 'Spring Boot Restful WebService'
-    version = '0.1'
 }
 
 sourceCompatibility = 1.7
@@ -39,16 +38,13 @@ configurations {
 
 ext {
 	springJdbc = '4.1.6.RELEASE'
-	boneCP = '0.8.0.RELEASE'
-	oracleJdbc = '11.1.0.7.0'
 	mybatis = '3.2.8'
 	mybatisSpring = '1.2.2'
 }
 
 dependencies {
 	compile("org.springframework:spring-jdbc:${springJdbc}")
-	compile("com.jolbox:bonecp:${boneCP}")
-	compile("com.oracle:ojdbc6_g:${oracleJdbc}")
+	compile("com.h2database:h2")
 	compile("org.mybatis:mybatis:${mybatis}")
 	compile("org.mybatis:mybatis-spring:${mybatisSpring}")
     compile("org.springframework.boot:spring-boot-starter-web")

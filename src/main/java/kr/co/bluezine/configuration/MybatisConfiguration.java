@@ -1,5 +1,7 @@
 package kr.co.bluezine.configuration;
 
+import static org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType.H2;
+
 import javax.sql.DataSource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -8,11 +10,9 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import com.jolbox.bonecp.BoneCPDataSource;
+import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 
 @Configuration("MybatisConfiguration")
 @MapperScan(basePackages={"kr.co.bluezine.mapper"})
@@ -20,27 +20,10 @@ public class MybatisConfiguration {
 	
 	private static final Logger logger = LoggerFactory.getLogger(MybatisConfiguration.class);
 	
-	@Value("${bonecp.driverClass}")
-	private String driverClass;
-	
-	@Value("${bonecp.url}")
-	private String jdbcUrl;
-	
-	@Value("${bonecp.username}")
-	private String jdbcUsername;
-	
-	@Value("${bonecp.password}")
-	private String jdbcPassword;
-	
-	@Bean(destroyMethod="close")
+	@Bean
 	public DataSource dataSource() {
-		logger.debug("---------> Set BoneCP Data Pool");
-		BoneCPDataSource dataSource = new BoneCPDataSource();
-		dataSource.setDriverClass(driverClass);
-		dataSource.setJdbcUrl(jdbcUrl);
-		dataSource.setPassword(jdbcPassword);
-		dataSource.setUsername(jdbcUsername);
-		return dataSource;
+		logger.debug("---------> Set Embedded DataSource");
+		return new EmbeddedDatabaseBuilder().setType(H2).build();
 	}
 	
 	@Bean
